@@ -33,7 +33,7 @@ int main() {
 
         shell_sort(array, array_length);
 
-        puts("\nSorted:");
+        puts("\nSorted by length:");
 
         for (int i = 0; i < array_length; ++i) {
             printf("%s\n", array[i]);
