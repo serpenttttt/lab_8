@@ -43,3 +43,7 @@ void shell_sort(char **array, int amount_of_elements) {
         distance /= 2;
     }
 }
+
+void clear_stdin() {
+    while (getchar() != '\n');
+}

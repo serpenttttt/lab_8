@@ -11,4 +11,6 @@ int strend(char *s, char *t);
 
 void shell_sort(char **array, int amount_of_elements);
 
+void clear_stdin();
+
 #endif //LAB_8_FUNCTIONS_H

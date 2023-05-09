@@ -21,7 +21,7 @@ int main() {
 
     if (scanf("%d", &array_length)) {
 
-        fflush(stdin);
+        clear_stdin();
 
         char **array = (char **) malloc(sizeof (char *) * array_length);
 
